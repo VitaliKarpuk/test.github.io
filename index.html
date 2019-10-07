@@ -1,16 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+<meta charset="utf-8"> 
+<title> 15 Тег FORM. Форма.</title>
 </head>
 <body>
-    <form action="./mail.php" method="post">
-        <input type="text" name="fio" placeholder="Укажите ФИО">
-        <input type="text" name="email" placeholder="Укажите e-mail">
-        <input type="submit" value="Отправить">
-    </form>
+<h2>Заказать</h2>
+<form action="mail.php" method="post" name="f1">
+<input  type="text" placeholder="Ваше имя" name="name1" required><br><br>
+<input  type="email" placeholder="Ваш email" name="email1" required="required"><br><br>
+
+<textarea   placeholder="Ваш текст" name="text" required="required"></textarea><br><br>
+
+<input  type="submit" value="ЗАКАЗАТЬ" name="sab">
+
+</form>
 </body>
 </html>
